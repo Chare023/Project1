@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top_nav {
+    background-color: #323847;
+    text-align: right;    
+}
+
+.nav_ul li {
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+ul a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    
+}
+.hamburger_menu {
+    display: inline-block;
+    padding: 0;
+    margin-right: 20px;
+    visibility: hidden;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    color: rgb(0, 140, 255);
+}
+
+@media only screen and (max-width: 768px) {
+    ul li a{
+        display: none;
+    }
+    ul div a {
+        visibility: visible;
+    }
+}
