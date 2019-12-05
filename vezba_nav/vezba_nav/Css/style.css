@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top_nav {
+    background-color: #323847;
+    text-align: right;    
+}
+
+.nav_ul li {
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.nav_ul a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    
+}
+.hamburger_menu {
+    visibility: hidden;
+}
+
+.nav_ul a:hover {
+    text-decoration-line: underline;
+    color: rgb(0, 140, 255);
+}
+
+main {
+    background-image: url(../img/computer-wallpaper-hd-1920x1200-409769.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+main .intro {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    color: white;
+    background-color: hsla(223, 17%, 24%, 0.6);
+    bottom: 0;  
+}
+
+.mid_nav {
+    text-align: right;
+    padding: 30px;
+}
+
+.mid_nav button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 40px;
+}
+button {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 50px;
+    color:gray;
+    text-align: center;
+    font-size: 18px;
+}
+
+.mid_nav a {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+    
+}
+
+.sec2 {
+    background-color: rgba(233, 233, 233, 0.212);
+    padding: 50px;
+}
+
+.con_fin1 {
+    border: 0px solid red;
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.con_fin2 {
+    border: 0px solid red;
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.con_fin3 {
+    border: 0px solid red;
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sec2 img {
+    width: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    ul li a{
+        visibility: hidden;
+    }
+    .hamburger_menu a {
+        visibility: visible;
+    }    
+}
